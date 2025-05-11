@@ -2,9 +2,10 @@ import React, { useState, useEffect, useRef } from "react";
 import { FaArrowUp } from "react-icons/fa";
 import axios from "axios";
 import { Typewriter } from "react-simple-typewriter";
+import { v4 as uuidv4 } from 'uuid';
 
 const generateSessionId = () => {
-  return Math.random().toString(36).substring(2, 15);
+  return uuidv4();
 };
 
 const URL = import.meta.env.VITE_API_URL;
