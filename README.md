@@ -1,6 +1,6 @@
 # 📰 NewsMate Frontend
 
-This is the **React + Tailwind CSS** frontend for the RAG-Powered News Chatbot built for the Verifast assignment. It allows users to chat with an AI chatbot that answers queries from a collection of news articles.
+This is the **React + Tailwind CSS** frontend for the RAG-Powered News Chatbot. It allows users to chat with an AI chatbot that answers queries from a collection of news articles.
 
 ---
 
